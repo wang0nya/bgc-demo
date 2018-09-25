@@ -75,6 +75,9 @@ a, a:focus, a:hover {
 
 .navbar {
   background: rgba(255, 255, 255, 0.8);
+  /*background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(239, 59, 54, 0.3));  !* Chrome 10-25, Safari 5.1-6 *!*/
+  /*background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(239, 59, 54, 0.3)); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+
 }
 
 .carousel-fade .carousel-inner .item {
